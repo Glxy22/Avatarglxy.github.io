@@ -144,12 +144,7 @@
   display: table;
 
 }
-@media only screen and (max-width: 500px) {
-  .column .secondsection-para{
-    background-color: lightblue;
-    width: 100%;
-  }
-}
+
 .secondsection-para{
   float: left;
   width: 60%;
@@ -171,6 +166,21 @@
   color: whitesmoke;
   stroke: coral;
   font-family: Georgia,sans-serif, serif ;
+}
+        @media only screen and (max-width: 500px) {
+
+  .column .secondsection-para{
+    background-color: lightblue;
+    width: 100%;
+    clear: both;
+    overflow: auto;
+
+  }
+  .rip{
+      width: 100%;
+      display: block;
+      clear: both;
+    }
 }
 
     </style>
@@ -280,14 +290,14 @@
 <div class="topthreeimg">
 
 <div class="row">
-  <div class="column">
+  <div class=" rip column">
     <div><img class="imgflood img-thumbnail" src="pic-flood.jpg" style="width:100%" alt="flood relief in Pakistan, image"> </div>
     <h2 class="fw-normal">Pakistan Flood Relief Emergency Appeal</h2>
         <p>The Ubqari Trust Foundation is assisting in providing aid for flood victims by supplying cooked food, dry food, and medicine through medical camps. We have begun the next phase by attempting to reconstruct the destroyed homes.</p>
         <p><a class="btn btn-secondary" href="#">View details »</a></p>
     
   </div>
-  <div class="column">
+  <div class=" rip column">
     <div><img class="imgflood img-thumbnail" src="pic-health.jpg" style="width:100%" alt="Health care provided by Ubqari, image">
     </div>
     <h2 class="fw-normal">Health Care Services</h2>
@@ -297,7 +307,7 @@
 
 
   </div>
-  <div class="column">
+  <div class=" rip column">
     <div>
     <img class="imgflood img-thumbnail" src="pic-housing.jpg" style="width:100%" alt="Education and housing provided by Ubqari, image">
   </div>
@@ -315,12 +325,12 @@
     <hr class="featurette-divider">
 
     <div class="row featurette">
-      <div class="column2 secondsection-para">
+      <div class="column2 rip secondsection-para">
         <h2 class="featurette-heading fw-normal lh-1">Clean/Filtered Water <span class="text-muted"><a href="#">click to learn more..</a></span></h2>
         <p class="lead">
         Ubqari Trust Provded services for getting clean and filtered water, especially in the Rohi Desert, where having access to clean water is a necessity. We have completed a lot of projects in  various parts of Rohi and Punjab and continuously working on them.</p>
       </div>
-      <div class=" column2 secondsection-img">
+      <div class=" column2 rip secondsection-img">
          <img class="last-three-img secondsection-img2" src="pic-water.jpg" alt="clean water supply by ubqari, image" ><title>Placeholder</title>
          
       </div>
@@ -331,11 +341,11 @@
     <hr class="featurette-divider">
 
     <div class=" row featurette">
-      <div class=" column2 secondsection-img-left">
+      <div class=" column2 rip secondsection-img-left">
          <img class="last-three-img secondsection-img2" src="pic-marriage.jpg" alt="clean water supply by ubqari, image" >
          
       </div>
-      <div class="column2 secondsection-para-right">
+      <div class="column2  rip secondsection-para-right">
         <h2 class="featurette-heading fw-normal lh-1">Marriage Support <span class="text-muted"><a href="#">click to learn more..</a></span></h2>
         <p class="lead">In order to help and support deserving families with a dowry for their cherished daughters, Ubqari Trust decided to start an exceptional charity. Join together to participate in the Marriage Gift Program.</p>
       </div>
@@ -347,11 +357,11 @@
     <hr class="featurette-divider">
 
     <div class="row featurette">
-      <div class="column2 secondsection-para">
+      <div class="column2 rip secondsection-para">
         <h2 class="featurette-heading fw-normal lh-1">Monthly allowance for Widows and Orphans <span class="text-muted"><a href="#">click to learn more..</a></span></h2>
         <p class="lead">Pakistan has low development and a high rate of poverty. Because they don't have access to resources, those in lower socioeconomic levels suffer as a result. A daily wage worker finds it challenging to pay for groceries, rent, fees, and utilities on a monthly basis. Learn more..</p>
       </div>
-       <div class=" column2 secondsection-img">
+       <div class=" column2 rip secondsection-img">
          <img  class="last-three-img secondsection-img2" src="pic-donation.jpg" alt="clean water supply by ubqari, image" ><title>Placeholder</title>
          
       </div>
